@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | SKALORA SLU</title>
+  <meta name="description" content="SKALORA SLU Blog — technical deep dives, IT tutorials, DevOps and digital trust posts.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a href="/" class="logo" aria-label="SKALORA logo"><img src="assets/logo.png" alt="SKALORA logo" class="logo-img"></a>
+      <nav class="nav">
+        <a href="/#about">About</a>
+        <a href="/#services">Services</a>
+        <a href="/#contact">Contact</a>
+        <a href="blog.html" class="active">Blog</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="blog" id="blog">
+      <div class="container blog__container">
+        <h2>Blog</h2>
+        <div id="blogPosts"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__copyright footer__copyright--spacing">
+        © 2025 SKALORA SLU. All rights reserved.<br>Based in La Massana, Andorra.
+      </div>
+      <nav class="footer__nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="blog.html" class="active">Blog</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="blog/blogMarkdown.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
