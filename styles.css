@@ -49,6 +49,12 @@ body {
   color: var(--color-accent);
   letter-spacing: 2px;
 }
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 .nav a {
   color: var(--color-text);
   text-decoration: none;
