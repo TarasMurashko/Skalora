@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Quick setup of telephony with Asterisk in Docker",
+    "summary": "A guide for quickly deploying Asterisk in Docker. Concise steps to get started, basic configuration tips, and reference links to documentation.",
+    "filename": "asterisk-docker.md"
+  },
+  {
+    "title": "Basic principles of digital signatures",
+    "summary": "A brief explanation of how a digital signature works, where it is used, and how authenticity is verified.",
+    "filename": "digital-signature-basics.md"
+  }
+]
